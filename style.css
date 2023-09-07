@@ -1,0 +1,30 @@
+body{
+    background: rgb(63,183,251);
+background: linear-gradient(90deg, rgba(63,183,251,0.926948051948052) 0%, rgba(252,70,107,1) 100%);
+}
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px dotted whitesmoke;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    float: right;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+@keyframes example{
+    form{box-shadow: 1px 1px 38px grey ;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
